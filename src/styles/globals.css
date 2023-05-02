@@ -24,4 +24,190 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    font-family: 'Comfortaa', cursive;
+}
+.separator-main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.separator {
+  position: absolute;
+  height: 60px;
+  background-color: #EF4444;
+  width: 4px;
+}
+
+.header{
+  background-color: rgba(0, 0, 0, 0.384);
+  box-shadow: inset -2px -4px 16px rgba(0, 0, 0, 0.322);
+}
+
+.slide-enter {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.slide-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 1500ms, transform 1500ms;
+}
+.slide2-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.slide2-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 1500ms, transform 1500ms;
+}
+
+.title-banner{
+  position: absolute;
+  top: 30%;
+  padding-left: 5em;
+}
+
+.button-banner{
+  position: absolute;
+  top:65%;
+  padding-left: 5em;
+  text-decoration: none;
+}
+.button-banner a{
+  border: 4px solid #EF4444;
+  padding: 20px 30px 20px 30px;
+  font-size: xx-large;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.button-banner a:hover{
+  border:4px solid #EF4444;
+  background-color: rgb(255, 255, 255);
+  color: #EF4444;
+}
+
+.items-banner{
+  position: absolute;
+  top: 75%;
+  left: 30%;
+}
+
+
+.info-banner{
+  margin: 0px 60px 0px 60px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.726);
+  box-shadow: inset 0px 0px 90px rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.info-banner h3{
+  font-weight: 700;
+  font-size: large;
+}
+
+.info-banner:hover{
+  transform: scale(1.2) translateY(-10px);
+}
+.services-subtitle{
+  color: #EF4444;
+  font-size: 30px;
+
+}
+.services-title{
+  color: #000000;
+  font-size: 50px;
+
+}
+.services{
+  padding-top: 40px;
+}
+.cards-services{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.services-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  width: 500px;
+  height: 400px;
+}
+
+.card-text{
+  padding: 50px;
+  height: 100%;
+  width: 100%;
+  background-color: #000000c2;
+  box-shadow: inset 0px 0px 200px rgba(0, 0, 0, 0.678);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.6s ease;
+
+}
+
+.card-text:hover{
+  background-color: #000000ef;
+}
+
+.contact-title{
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  left: 40px;
+}
+.contact{
+  display: flex;
+  align-items: center;
+  min-height: 200px;
+}
+
+.about-subtitle{
+  color: #EF4444;
+  font-size: 30px;
+
+}
+.about-title{
+  color: #ffffff;
+  font-size: 50px;
+
+}
+.about-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 4px white;
+  margin: 20px;
+  width: 400px;
+  height: 500px;
+}
+
+.about-image{
+  height: 440px;
+  width: 340px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.349);
+}
+
+.about-card-text{
+  padding: 50px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.6s ease;
+}
+.about-card-text:hover{
+  background-color: #ef444494;
+  opacity: 1;
 }
