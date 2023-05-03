@@ -389,3 +389,28 @@ body {
     left: -5%;
   }
 }
+
+@media (max-width: 370px){
+  .contact-title{
+    position: relative;
+    left: 30px;
+    color: #00000000;
+    top: -50px;
+    font-size: large;
+  }
+  .about-title{
+    text-align: center;
+  }
+  .services-title{
+    text-align: center;
+  }
+  .title-banner{
+    top: 30%;
+    left: -10%;
+  }
+  .button-banner{
+    top: 50%;
+    left:-10%;
+    font-size: small;
+  }
+}

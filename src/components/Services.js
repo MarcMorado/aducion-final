@@ -34,9 +34,9 @@ const Services = () => (
             style={{ backgroundImage: `url(${card.imageUrl})` }}
           >
             <div className="card-text p-6">
-              <h2 className="text-xl font-bold mb-2">{card.title}</h2>
+              <h2 className="text-xl font-bold mb-2 sm:text-left text-center">{card.title}</h2>
               <br/>
-              <p className="text-lg text-center" style={{ whiteSpace: "pre-line" }}>{card.text}</p>
+              <p className="sm:text-lg  text-sm text-center" style={{ whiteSpace: "pre-line" }}>{card.text}</p>
             </div>
           </div>
         ))}
