@@ -26,7 +26,7 @@ const cards = [
               <div className="about-image" style={{ backgroundImage: `url(${card.imageUrl})` }}>
                 <div className="about-card-text p-6 ">
                   <h2 className="text-white text-3xl font-bold mb-2">{card.title}</h2>
-                  <p>{card.text}</p>
+                  <p className="text-white">{card.text}</p>
                   <a href={card.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-white p-4">
                     <FaLinkedin size={30} />
                   </a>

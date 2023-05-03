@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { CSSTransition } from "react-transition-group";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 const MainBanner = () => {
   const [showText, setShowText] = useState(false);
@@ -55,7 +58,7 @@ const MainBanner = () => {
           classNames="slide2"
           unmountOnExit
         >
-            <div className="flex sm:row-auto col-span-1 items-banner">
+            <div className="flex sm:flex-row flex-col text-white items-banner">
                 <div className="info-banner">
                     <h3>
                     Comunicación disruptiva    

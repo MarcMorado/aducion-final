@@ -144,7 +144,7 @@ body {
   padding: 50px;
   height: 100%;
   width: 100%;
-  background-color: #000000e5;
+  background-color: #000000a1;
   box-shadow: inset 0px 0px 200px rgba(0, 0, 0, 0.678);
   display: flex;
   flex-direction: column;
@@ -210,4 +210,182 @@ body {
 .about-card-text:hover{
   background-color: #ef444494;
   opacity: 1;
+}
+
+
+/* tablet */
+@media (max-width: 1796px) {
+  .items-banner{
+    position: absolute;
+    top: 62%;
+    left: 35%;
+  }
+  .info-banner{
+    margin: 0px 30px 0px 30px;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.726);
+    box-shadow: inset 0px 0px 90px rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .info-banner h3{
+    font-weight: 700;
+    font-size: large;
+  }
+}
+
+@media (max-width: 1436px) {
+  .items-banner{
+    position: absolute;
+    top: 62%;
+    left: 35%;
+  }
+  .info-banner{
+    margin: 0px 4px 0px 4px;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.726);
+    box-shadow: 0px 10px 20px rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .info-banner h3{
+    font-weight: 700;
+    font-size: medium;
+  }
+  .info-banner p{
+    font-size: small;
+  }
+  .info-banner:hover{
+    transform: scale(1.8) translateY(-20px);
+    background-color: #000000f5;
+  }
+}
+
+@media (max-width: 1206px) {
+  .items-banner{
+    position: absolute;
+    top: 62%;
+    left: 40%;
+  }
+  .info-banner{
+    margin: 0px 2px 0px 2px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.815);
+    box-shadow:inset 0px 0px 20px rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .info-banner h3{
+    font-weight: 700;
+    font-size:medium;
+  }
+  .info-banner p{
+    font-size:smaller;
+  }
+  .info-banner:hover{
+    transform: scale(1.8) translateY(-50px) translateX(-60px);
+    background-color: #000000f5;
+  }
+}
+
+@media (max-width: 1026px) {
+  .title-banner{
+    position: relative;
+    top: 15%;
+  }
+  .button-banner{
+    position: relative;
+    top:25%;
+  }
+  .items-banner{
+    position: absolute;
+    top: 75%;
+    left: 10%;
+  }
+  .info-banner{
+    margin: 0px 2px 0px 2px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.815);
+    box-shadow:inset 0px 0px 20px rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .info-banner h3{
+    font-weight: 700;
+    font-size:medium;
+  }
+  .info-banner p{
+    font-size:smaller;
+  }
+  .info-banner:hover{
+    transform: scale(1.8) translateY(-150px) translateX(0px);
+    background-color: #000000f5;
+  }
+  .slide-enter {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  .slide-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 1500ms, transform 1500ms;
+  }
+}
+
+@media (max-width: 500px){
+  .items-banner{
+    position: absolute;
+    top: 6%;
+    left: 0%;
+  }
+  .info-banner{
+    margin: 0px 0px 0px 0px;
+    width: 0px;
+    height: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow:inset 0px 0px 20px rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .info-banner h3{
+    color: #00000000;
+    font-weight: 100;
+    font-size: xx-small;
+  }
+  .info-banner p{
+    color: #00000000;
+    font-size: xx-small;
+  }
+  .info-banner:hover{
+    transform: scale(0) translateY(-20px);
+    background-color: #000000f5;
+  }
+  .contact-title{
+    position: relative;
+    left: 30px;
+    font-size: large;
+  }
+  .about-title{
+    text-align: center;
+  }
+  .services-title{
+    text-align: center;
+  }
+  .title-banner{
+    top: 30%;
+  }
+  .button-banner{
+    top: 50%;
+    left: -5%;
+  }
 }
