@@ -17,7 +17,7 @@ const cards = [
   {
     title: "Exclusividad absoluta",
     text: "No trabajamos la misma zona con diferentes agentes, una vez entres a trabajar con nosotros dispondrás de la zona que limites únicamente para ti.\n Queremos proporcionarte la mejor calidad y cantidad para que siempre consigamos los objetivos propuestos.",
-    imageUrl: "/deals.png",
+    imageUrl: "/deal.png",
   },
 ];
 
