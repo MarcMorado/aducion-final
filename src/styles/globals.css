@@ -424,3 +424,68 @@ body {
     font-size: small;
   }
 }
+@media (max-height: 500px){
+  .items-banner{
+    position: absolute;
+    top: 6%;
+    left: 0%;
+  }
+  .info-banner{
+    margin: 0px 0px 0px 0px;
+    width: 0px;
+    height: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow:inset 0px 0px 20px rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .info-banner h3{
+    color: #00000000;
+    font-weight: 100;
+    font-size: xx-small;
+  }
+  .info-banner p{
+    color: #00000000;
+    font-size: xx-small;
+  }
+  .info-banner:hover{
+    transform: scale(0) translateY(-20px);
+    background-color: #000000f5;
+  }
+  .contact-title{
+    position: relative;
+    left: 30px;
+    font-size: xx-large;
+  }
+  .about-title{
+    text-align: center;
+  }
+  .services-title{
+    text-align: center;
+  }
+  .title-banner{
+    top: 30%;
+    left: -10%;
+  }
+  .button-banner{
+    top: 50%;
+    left:-10%;
+    font-size: small;
+  }
+  .title-banner{
+    top: 35%;
+    left: -5%;
+  }
+  .title-banner h1{
+    font-size:30px;
+  }
+  .title-banner h2{
+    font-size:50px;
+  }
+  .button-banner{
+    position: absolute;
+    left: 50%;
+  }
+}
