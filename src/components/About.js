@@ -18,7 +18,6 @@ const cards = [
   const About = () => (
     <div className="bg-black flex flex-col justify-center py-9 items-center">
       <h3 className="about-subtitle">Conoce al equipo</h3>
-      <h2 className="about-title">Te hacemos crecer</h2>
       <div className="w-full max-w-6xl services">
         <div className="cards-services">
           {cards.map((card, index) => (

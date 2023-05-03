@@ -212,8 +212,6 @@ body {
   opacity: 1;
 }
 
-
-/* tablet */
 @media (max-width: 1796px) {
   .items-banner{
     position: absolute;
