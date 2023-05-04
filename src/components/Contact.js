@@ -12,7 +12,7 @@ const Contact = () => {
               rel="noopener noreferrer"
               className="inline-block bg-red-500 text-white text-5xl font-semibold py-6 px-6"
             >
-              Elije fecha!
+              Elige fecha!
             </a>
           </div>
         </div>
