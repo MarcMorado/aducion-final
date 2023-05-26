@@ -141,13 +141,11 @@ const Privacy = () => {
             través de nuestros anuncios de Facebook es Aducion, con los
             siguientes datos de contacto:
             <br />
-            [Nombre de la empresa]
+            Aducion
             <br />
-            [Dirección de la empresa]
+            Rambla guipúzcoa 100
             <br />
-            [Teléfono de contacto]
-            <br />
-            [Correo electrónico de contacto]
+            polmorado@aducion.com
           </p>
           <br />
           <h2>2.Recopilación y uso de datos personales</h2>
