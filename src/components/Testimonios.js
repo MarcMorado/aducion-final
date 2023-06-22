@@ -26,37 +26,36 @@ const NuestrosResultados = () => {
       </div>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 pb-6">
         <div className="flex justify-center">
-          <Image
-            src="/6.png"
-            alt="Chat Primera Venta"
-            width={250}
-            height={1350}
+        <img
+            src="https://i.imgur.com/t3bg2M2.png"
+            alt="Star Wars logo"
+            width={250} height={1350} 
           />
         </div>
         <div className="flex justify-center">
-          <Image src="/7.png" alt="Chat Venta" width={250} height={1350} />
+          <img src="https://i.imgur.com/1pzqLJv.png" alt="Chat Venta" width={250} height={1350} />
         </div>
         <div className="flex justify-center">
-          <Image
-            src="/4.png"
+          <img
+            src="https://i.imgur.com/Hgu5WJa.png"
             alt="Chat Nueva Exclusiva"
             width={250}
             height={1350}
           />
         </div>
         <div className="flex justify-center">
-          <Image
-            src="/2.png"
+          <img
+            src="https://i.imgur.com/NYR4Lba.png"
             alt="Chat Cita Confirmada"
             width={250}
             height={1350}
           />
         </div>
         <div className="flex justify-center">
-          <Image src="/5.png" alt="Chat Exclusiva" width={250} height={1350} />
+          <img src="https://i.imgur.com/gegbTcz.png" alt="Chat Exclusiva" width={250} height={1350} />
         </div>
         <div className="flex justify-center">
-          <Image src="/1.png" alt="Chat Cita" width={250} height={1350} />
+          <img src="https://i.imgur.com/G9JMNfd.png" alt="Chat Cita" width={250} height={1350} />
         </div>
       </div>
     </div>
