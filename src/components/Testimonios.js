@@ -6,7 +6,7 @@ import "tailwindcss/tailwind.css";
 
 const NuestrosResultados = () => {
   return (
-    <div className="p-6">
+    <div className="p-6 bg-Black">
       <h3 className="flex justify-center pt-6 about-subtitle">
         Nuestros resultados
       </h3>
