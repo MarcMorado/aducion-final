@@ -6,6 +6,7 @@ import MainBanner from "@/components/MainBanner";
 import Services from "@/components/Services";
 import Contact from "@/components/Contact";
 import About from "@/components/About";
+import Testimonios from "@/components/Testimonios";
 
 const Home = () => {
   return (
@@ -29,6 +30,12 @@ const Home = () => {
         <div className="separator-main">
           <div className="separator" />
         </div>
+        <section id="testimonios">
+          <Testimonios />
+        </section>
+        <div className="separator-main">
+          <div className="separator" />
+        </div>
         <section id="about">
           <About />
         </section>
@@ -36,7 +43,7 @@ const Home = () => {
           <div className="separator" />
         </div>
         <section id="contact">
-          <Contact/>
+          <Contact />
         </section>
         <Footer />
       </div>

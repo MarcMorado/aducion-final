@@ -247,6 +247,10 @@ body {
   font-weight: bold;
   font-size: large;
 }
+
+.test-video{
+  height: 700px;
+}
 @media (max-width: 1796px) {
   .items-banner{
     position: absolute;
