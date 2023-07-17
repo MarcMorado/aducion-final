@@ -7,7 +7,7 @@ const Contact = () => {
         <div className="flex justify-center">
           <div className="button-contact">
             <a
-              href="https://api.leadconnectorhq.com/widget/booking/diEdpzqEVKIPGSWxuajT"
+              href="https://api.leadconnectorhq.com/widget/booking/fAhoAtWhpRfctJ9OEiHcT"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-red-500 text-white text-5xl font-semibold py-6 px-6"
