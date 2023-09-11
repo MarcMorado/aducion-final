@@ -10,7 +10,7 @@ const Privacy = () => {
       <div className="main-terms">
         <div className="terminos">
           <p>
-            Gracias por visitar nuestro sitio web Aducción.com. En Aducion, nos
+            Gracias por visitar nuestro sitio web Adución.com. En Aducion, nos
             comprometemos a proteger su privacidad y garantizar la seguridad de
             la información personal que nos proporciona. Esta Política de
             Privacidad describe cómo recopilamos, utilizamos y compartimos su
@@ -144,6 +144,9 @@ const Privacy = () => {
             Aducion
             <br />
             Rambla guipúzcoa 100
+            <br />
+            <br />
+            08020
             <br />
             polmorado@aducion.com
           </p>
